@@ -1,3 +1,10 @@
+# since this file requires UDFs from the others I will 1st source the others:
+source('TVBARC.R')
+source('TVINGARCH.R')
+
+# since this file takes a LOOONG time to run I will change this parameter to make it be fast but less accurate for example run
+# TK
+
 set.seed(1)
 
 Ti <- 1000
